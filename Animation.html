@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <title>Animation</title>
+    <style>
+p{
+    color:red;
+    outline:orangered solid 4px;
+    outline-color: orangered;
+    outline-offset:10px;
+    outline-style:double;
+    outline-width:thick;
+
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  transition: width 2s, height 4s;
+  height: 300px;
+  transition-delay: 1s;
+}
+div:hover {
+  width: 300px;
+}
+img:hover{
+    height:200px;
+    width:200px;
+    transform:rotate(260deg);
+    border-radius: 50%;
+    border: 16px outset darkred;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+   <left> <i class="material-icons" style="font-size:48px;color:blue;">cloud</i>
+    <i class="material-icons" style="font-size:48px;color:red;">traffic</i>
+    <i class="material-icons" style="font-size:48px;color:green;">attachment</i>
+    <i class="material-icons" style="font-size:48px;color:gray;">computer</i>
+    <i class="material-icons" style="font-size:48px;color:rgb(180, 76, 16);">home</i>
+   </left>
+    <center><img src="jainism facts.png"width=250 height=250 class="img2"></center>
+    <h1 style="font-size: xxx-large;text-shadow: 1px 3px 1px coral;">Jainism Facts</h1>
+    <p>This website will provide you a great knowledge about Jainism,
+        traditionally known as <strong><u>Jain Dharma</u></strong> which is ancient Indian
+         religion.<br>
+    </p>
+  
+    <div style="list-style-type:square;font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred; float:left;margin-left: 200px;border:12px solid darkred;border-radius: 100px; padding: 20px 30px 20px 30px;" >
+    <h2 style="margin-left: 40px;">Content</h2>
+    <ul style="background-color: rgb(248, 226, 218);font-weight: 800;line-height: 40px;word-spacing: 3px;transition-delay: 5s;animation-name: mohit;animation-duration: 6s;">
+        <li>Jainism History</li>
+        <li> Jainism Rules</li>
+        <li>Jainism Belief</li>
+        <li>Jainism Story</li>
+        <li>Jainism Rituals</li>
+      
+        
+    </ul>
+    
+</div>
+<p style="float: right;  border: 16px outset darkred;">Image
+    <img src="Frontimage.jpeg"width=250 height=250>
+   
+ </p>
+    </body>
+</html>
